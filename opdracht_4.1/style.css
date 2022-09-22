@@ -1,3 +1,6 @@
+html {
+    font-size: 62.5%;
+}
 h1 {
     font-size: 24px;
     color: blue;
@@ -19,6 +22,7 @@ h3 {
 
 p {
    color: #4D4D4D  ;
+   font-size: 1.6rem;
 }
 
 .first_paragrapgh p {
@@ -30,4 +34,31 @@ a, a:visited {
     text-decoration: none;
     
 
+}
+
+header {
+    height: 33vh;
+    width: 100vw;
+    background-image: url("./img/Headerpic.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+header h1 , header p {
+    color: white;
+
+
+}
+
+img {
+    width: 50vw;
+}
+
+article {
+    border: 0.3rem solid black;  
+    border-radius: 2rem;
+    border-color: firebrick;
+    border-left-width: 0.4rem;
 }
