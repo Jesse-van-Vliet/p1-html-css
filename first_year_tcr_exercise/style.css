@@ -2,12 +2,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
 }
 html {
   font-size: 62.5%;
 }
 body {
   font-family: "Goldman", cursive;
+  background-image: url(./img/hackerman.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  height: 100vw;
+  background-color: black;
+
 }
 
 nav {
@@ -37,3 +46,20 @@ nav a {
 nav img {
   width: 5vw;
 }
+
+section {
+  width: 100vw;
+  height: 100vh;
+}
+
+footer {
+  background-color: #00a8c7 ;
+  width: 100vw;
+  height: 15vh;
+}
+
+H1 , h2 {
+  font-weight: bold;
+
+}
+
