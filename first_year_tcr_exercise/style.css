@@ -16,6 +16,8 @@ body {
   height: 100vh;
   height: 100vw;
   background-color: black;
+  overflow-x: hidden;
+  position: relative;
 
 }
 
@@ -29,6 +31,10 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 nav ul {
   display: flex;
@@ -56,10 +62,61 @@ footer {
   background-color: #00a8c7 ;
   width: 100vw;
   height: 15vh;
+  position: absolute;  
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  padding: 5rem;
+  font-size: 1.5rem;
 }
 
-H1 , h2 {
+Header {
   font-weight: bold;
+  text-align: center;
+  position: relative;
 
 }
 
+main {
+  margin-top: 50vh;
+
+}
+
+h1 { 
+  font-size: 5rem;
+  margin-bottom: 20 rem;
+}
+
+section {
+  position: relative;
+
+}
+
+p{
+  font-size: 1.7rem;
+}
+/* 
+.right img {
+  float: right;
+}
+
+div {
+  width: 20vw;
+  
+} */
+
+.paragraphl {
+  width: 40vw;
+  float: right;
+
+}
+
+.paragraphr {
+  width: 40vw;
+  float: left;
+}
+
+h1 {
+  position: relative;
+  margin-top: 30vw;
+}
