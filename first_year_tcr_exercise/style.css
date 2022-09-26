@@ -9,16 +9,15 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
-  background-image: url(./img/hackerman.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  width: 100vw;
   height: 100vh;
-  height: 100vw;
+  background-image: url(./img/hackerman.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: black;
+  position: absolute;
   overflow-x: hidden;
-  position: relative;
-
+  
 }
 
 nav {
@@ -59,15 +58,17 @@ section {
 }
 
 footer {
+  position: absolute; 
   background-color: #00a8c7 ;
   width: 100vw;
-  height: 15vh;
-  position: absolute;  
-  bottom: 0;
+  height: 10vh;  
   left: 0;
   text-align: center;
-  padding: 5rem;
-  font-size: 1.5rem;
+  padding: 3rem;
+  font-size: 2.5rem;
+
+  
+  
 }
 
 Header {
@@ -83,17 +84,27 @@ main {
 }
 
 h1 { 
-  font-size: 5rem;
+  font-size: 7rem;
   margin-bottom: 20 rem;
+  position: relative;
+  margin-top: 45vw;
+  
 }
+
+h2 {
+  font-size: 6rem;
+  padding: 20rem;
+ }
 
 section {
   position: relative;
+  margin-top: 15rem;
 
 }
 
 p{
-  font-size: 1.7rem;
+  font-size: 2rem;
+  line-height: 2.75rem;
 }
 /* 
 .right img {
@@ -108,15 +119,41 @@ div {
 .paragraphl {
   width: 40vw;
   float: right;
+  padding-right: 6rem;
+  margin-left: 50rem;
 
 }
+
+
 
 .paragraphr {
   width: 40vw;
   float: left;
+  padding-left: 6rem;
+  margin-right: 50rem;
 }
 
-h1 {
-  position: relative;
-  margin-top: 30vw;
+.sqllogo {
+  padding-bottom: 20rem;
 }
+
+.csshtmllogo {
+  position: relative;
+  margin-top: -3rem;
+  padding-left: 10rem;
+}
+
+.phptext {
+  margin-top: -23rem;
+}
+
+.phplogo {
+  padding-left: 10rem;
+
+}
+
+
+  
+
+
+
