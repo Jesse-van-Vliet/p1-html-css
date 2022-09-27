@@ -11,13 +11,18 @@ body {
   font-family: "Goldman", cursive;
   width: 100vw;
   min-height: 100vh;
+ 
+  background-color: black;
+  position: relative;
+  
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
   background-image: url(./img/hackerman.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: black;
-  position: absolute;
-  overflow-x: hidden;
-  
 }
 
 nav {
