@@ -23,6 +23,7 @@ body {
   background-image: url(./img/hackerman.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  bottom: 50rem;
 }
 
 nav {
@@ -39,6 +40,7 @@ nav {
   top: 0;
   left: 0;
   z-index: 1;
+  margin-bottom: 10vh;
 }
 nav ul {
   display: flex;
@@ -63,16 +65,12 @@ section {
 }
 
 footer {
-  position: absolute; 
-  background-color: #00a8c7 ;
+  background: #00a8c7;
+  height: 7vh;
   width: 100vw;
-  height: 10vh;  
-  left: 0;
+  position: absolute;
   text-align: center;
-  padding: 3rem;
-  font-size: 2.5rem;
-  bottom: 0;
-
+  padding: 5rem;
 }
 
 Header {
@@ -91,7 +89,7 @@ h1 {
   font-size: 7rem;
   margin-bottom: 20 rem;
   position: relative;
-  margin-top: 45vw;
+  margin-top: 40vw;
   
 }
 
@@ -155,6 +153,7 @@ div {
   padding-left: 10rem;
 
 }
+
 
 
   
