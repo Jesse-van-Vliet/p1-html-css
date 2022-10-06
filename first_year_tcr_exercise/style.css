@@ -178,14 +178,16 @@ li a {
 
 .dropdown-contend a {
   color: #00a8c7  ;
-  display: block;
+  display: flex;
+  flex-direction: column;
   text-align: left;
 
 }
 
 .dropdown:hover .dropdown-contend {
 
-  display: block;
+  display: flex;
+  flex-direction: column;
 
 }
 
