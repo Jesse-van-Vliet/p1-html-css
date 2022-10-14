@@ -30,6 +30,9 @@ body {
     overflow-x: hidden;
     height: 100vh;
     width: 100vw;
+    position: relative;
+    background-color: white;
+    overflow-x: hidden;
 }
 
 .content {
@@ -101,10 +104,11 @@ a:link {
     flex-direction: column;
     justify-content: center;
 }
-
-.timetoexplore {
-    border-bottom: solid
-    ;
+    .timetoexplore {
+       border-bottom: white;
+       border-bottom: solid;
+        text-decoration-color: white;
+    } 
 }
 
 .headersec3 {
@@ -133,4 +137,14 @@ display: flex;
     background-color: white;
 }
 
+
+footer {
+    bottom: 0;
+    height: 7vh;
+    width: 100vw;
+    background-color: #131c27;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
 
