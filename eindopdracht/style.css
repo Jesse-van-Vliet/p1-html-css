@@ -11,7 +11,7 @@
   .flexnav {
     display: flex;
     justify-content: space-around;
-    height: 5vh;
+    height: 7vh;
     width: 100vw;
     list-style: none;
     width: 100vw;
@@ -21,8 +21,15 @@
     font-size: 1.5rem;
     z-index: 1;
     top: 0;
+    position: fixed;
     
 
+}
+
+body {
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
 }
 
 .content {
@@ -49,7 +56,7 @@ a:link {
 
 .beyondlimits {
     display: flex;
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     background-image: url(./img/landing-page.jpg);
     background-repeat: no-repeat;
@@ -62,9 +69,10 @@ a:link {
  align-self: center;
  color: white;
  flex-direction: column;
- position: relative;
- left: 35vw;
+ justify-content: space-evenly;
  font-size: 3rem;
+ height: 40vh;
+ width: 100vw;
 }
 
 .bookbutton {
@@ -72,10 +80,57 @@ a:link {
     background-color: #4c6e97 ;
     border: none;
     width: 13rem;
-    height: 3rem;
-    justify-content: center;
+    height: 4rem;
+    align-self: center;
 }
     
-.text {
-    padding: 5rem;
+.textbeyond {
+    padding: 4rem;
 }
+
+.explore {
+    display: flex;
+    width: 100vw;
+    height: 140vh;
+    background-image: url(./img/new-york-page.png);
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 3rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.timetoexplore {
+    border-bottom: solid
+    ;
+}
+
+.headersec3 {
+display: flex;
+    height: 25vh;
+    width: 100vw;
+    background-color: #131c27 ;
+    color: white;
+    font-size: 3rem;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+}
+
+.headersec3 p {
+   width:55rem;
+    text-align: center;
+}
+
+.contendsec3 {
+    display: flex;
+    height: 75vh;
+    width: 100vw;
+
+    background-color: white;
+}
+
+
