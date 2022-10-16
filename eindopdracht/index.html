@@ -14,9 +14,9 @@
         <ul class="flexnav">
           <li class="Travellylogo"><a href="">Travelly</a></li>
           <div class="content">
-            <li><a href="#">Locations</a></li>
+            <li><a href="#locations">Locations</a></li>
             <li><a href="#">Benefits</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
           </div>
         </ul>
       </nav>
@@ -29,15 +29,15 @@
             <p>Start your travel at an affordable price with Travelly</p>
             <p>Contact us now bellow.</p>
            </div>
-            <button class="bookbutton">Book Now</button>
+            <button type="submit" class="bookbutton">Book Now</button>
         </div>
         </header>
         
         <section class="explore">
-          <div class="timetoexplore">
-          <h2>Time to explore.</h2>
-          </div>
-          <p>Has your dream always been to visit New York?</p>
+            <header>
+              <h2 >Time to explore.</h2>
+            </header>
+          <p class="exploretext">Has your dream always been to visit New York?</p>
           <p>We can make it possible for you</p>
         
 
@@ -48,12 +48,35 @@
             <h2>The Perfect Travel Experience.</h2>
             <p>We cover everything from picking the perfect hotel, flight and travelling destination</p>
           </div>
+          </section>
 
-          <div class="contendsec3">
+          <section class="contendsec3">
+            
 
-          </div>
 
-        </section>
+          </section>
+         
+          
+         <section class="section4">
+            <div class="containercontact">
+                <h2 id="contact">Contact Us</h2>
+                <div class="info">
+                    <label for="name">naam:</label>
+                    <input type="text" size="20" id="Firstname" name="firstname"pattern="[A-Za-z]+" required />
+                  </div>
+
+                  <div class="info">
+                    <label for="email">email:</label>
+                    <input type="text" size="20" id="email" name="email" required>
+                  </div>
+
+                  <div class="submitcontact">
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+            
+
+         </section>
       </main>
 
       <footer>footer</footer>

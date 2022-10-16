@@ -31,8 +31,8 @@ body {
     height: 100vh;
     width: 100vw;
     position: relative;
-    background-color: white;
-    overflow-x: hidden;
+    background-color: white
+
 }
 
 .content {
@@ -86,6 +86,10 @@ a:link {
     height: 4rem;
     align-self: center;
 }
+
+.bookbutton:hover {
+    background-color: #5880b1;
+}
     
 .textbeyond {
     padding: 4rem;
@@ -97,18 +101,25 @@ a:link {
     height: 140vh;
     background-image: url(./img/new-york-page.png);
     background-color: grey;
+    color: white;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
     font-size: 3rem;
     flex-direction: column;
     justify-content: center;
 }
-    .timetoexplore {
-       border-bottom: white;
-       border-bottom: solid;
-        text-decoration-color: white;
-    } 
+
+.explore h2 , .explore p {
+    padding-left: 5rem;
+}
+
+.explore header {
+    border-bottom: solid;
+}
+   
+.exploretext {
+    padding-top: 5rem;
+    
 }
 
 .headersec3 {
@@ -134,17 +145,93 @@ display: flex;
     height: 75vh;
     width: 100vw;
 
-    background-color: white;
+    background-color: red;
+}
+
+.section4 {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./img/contact-mountain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.containercontact {
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    width: 50vw;
+    background: rgba(19, 28, 39, 0.8); 
+
+    align-self: center;
+    
+    border-radius: 3vh;
+    flex-direction: column;
+    justify-content: center;
+    size: 
+    
+
+    
+    
+}
+
+.containercontact h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    position: relative;
+    bottom: 5vh;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    padding: 2vh;
+    opacity: 100;
+    
+    
+}
+
+.info label {
+    padding-right: 1vw;
+}
+
+.submitcontact button {
+    height: 5vh;
+    width: 100vw;
+    color: white;
+    background-color: #4c6e97;
+    border: none;
+    border-bottom-right-radius: 3vh;
+    border-bottom-left-radius: 3vh;
+    
+    
+
+}
+.submitcontact {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5vh;
+    
+    color: #4c6e97;
+    
+    
+
 }
 
 
-footer {
-    bottom: 0;
-    height: 7vh;
-    width: 100vw;
+footer{
     background-color: #131c27;
-    color: white;
+    height: 7vh;
+    position: 0;
     text-align: center;
-    font-size: 2rem;
+    color: white;
+    width: 100vw;
 }
 
