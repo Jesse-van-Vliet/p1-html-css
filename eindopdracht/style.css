@@ -14,7 +14,6 @@
     height: 7vh;
     width: 100vw;
     list-style: none;
-    width: 100vw;
     background-color: #131c27 ;
     color: white;
     align-items: center;
@@ -26,18 +25,29 @@
 
 }
 
+.Travellylogo  {
+ font-family: 'Pattaya', sans-serif;
+}
+
+
+
+
+
 body {
     overflow-x: hidden;
     height: 100vh;
     width: 100vw;
     position: relative;
-    background-color: white
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
 
 }
 
+
+
 .content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 5vh;
     width: 30vw;
     align-items: center;
@@ -45,9 +55,6 @@ body {
     
 }
 
-.Travellylogo {
-    font-family: "poppins";
-}
 nav a  {
     color: white;
 
@@ -99,28 +106,32 @@ a:link {
     display: flex;
     width: 100vw;
     height: 140vh;
-    background-image: url(./img/new-york-page.png);
-    background-color: grey;
-    color: white;
-    background-repeat: no-repeat;
+    background: url(./img/new-york-page.png), linear-gradient(90deg, rgba(137,137,137,1) 0%, rgba(204,204,204,1) 35%), no-repeat;
     background-size: cover;
+    color: white;
     font-size: 3rem;
     flex-direction: column;
     justify-content: center;
 }
 
-.explore h2 , .explore p {
-    padding-left: 5rem;
+.explore h2, .explore p {
+    margin-left:  10vh;
 }
 
-.explore header {
+
+
+.explore h2 {
     border-bottom: solid;
+    width: 37rem;
 }
-   
-.exploretext {
-    padding-top: 5rem;
+
+.explore {
+    display: flex;
     
 }
+    
+
+
 
 .headersec3 {
 display: flex;
@@ -136,7 +147,7 @@ display: flex;
 }
 
 .headersec3 p {
-   width:55rem;
+   width:78rem;
     text-align: center;
 }
 
@@ -144,16 +155,58 @@ display: flex;
     display: flex;
     height: 75vh;
     width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    
 
-    background-color: red;
+    background-color: rgb(255, 255, 255);
+}
+
+.travelcontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 35rem;
+    height: 45rem;
+    box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.4);
+    
+        
+}
+
+.travelcontainer h2, .travelcontainer p {
+   display: flex;
+   align-self: center;
+   flex-direction: column;
+   justify-content: center;
+   font-size: 2rem;
+   text-align: center;
+   height: 14vh;
+   
+}
+
+
+
+.travelcontainerimg {
+    display: flex;
+    background-color: #131c27;
+    height: 8rem;
+    width: 35rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.travelcontainerimg img {
+    display: flex;
+    width: 10rem;
+    height: 5rem;
+
 }
 
 .section4 {
     display: flex;
     height: 100vh;
     width: 100vw;
-    background-image: url(./img/contact-mountain.png);
-    background-repeat: no-repeat;
+    background: url(./img/contact-mountain.png), linear-gradient(195deg, rgb(90, 90, 90) 0%, rgba(204,204,204,1) 35%), no-repeat;
     background-size: cover;
     justify-content: center;
 }
@@ -164,17 +217,11 @@ display: flex;
     height: 50vh;
     width: 50vw;
     background: rgba(19, 28, 39, 0.8); 
-
     align-self: center;
-    
     border-radius: 3vh;
     flex-direction: column;
     justify-content: center;
-    size: 
-    
-
-    
-    
+    size:   
 }
 
 .containercontact h2 {
@@ -216,14 +263,11 @@ display: flex;
 }
 .submitcontact {
     display: flex;
-    flex-direction: row;
     border-radius: 5vh;
-    
     color: #4c6e97;
-    
-    
-
 }
+
+
 
 
 footer{
