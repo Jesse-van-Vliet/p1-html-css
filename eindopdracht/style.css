@@ -109,20 +109,20 @@ a:link {
     background: url(./img/new-york-page.png), linear-gradient(90deg, rgba(137,137,137,1) 0%, rgba(204,204,204,1) 35%), no-repeat;
     background-size: cover;
     color: white;
-    font-size: 3rem;
+    font-size: 3.8vh;
     flex-direction: column;
     justify-content: center;
 }
 
 .explore h2, .explore p {
-    margin-left:  10vh;
+    margin-left:  7vh;
 }
 
 
 
 .explore h2 {
     border-bottom: solid;
-    width: 37rem;
+    width: 24vw;
 }
 
 .explore {
@@ -214,14 +214,16 @@ display: flex;
 .containercontact {
     display: flex;
     width: 100vw;
-    height: 50vh;
-    width: 50vw;
+    height: 55vh;
+    width: 55vw;
     background: rgba(19, 28, 39, 0.8); 
     align-self: center;
     border-radius: 3vh;
     flex-direction: column;
-    justify-content: center;
-    size:   
+    justify-content: space-between;
+    
+    
+   
 }
 
 .containercontact h2 {
@@ -230,7 +232,7 @@ display: flex;
     justify-content: center;
     font-size: 5rem;
     position: relative;
-    bottom: 5vh;
+    padding-top: 3vh;
 }
 
 .info {
@@ -250,7 +252,7 @@ display: flex;
 }
 
 .submitcontact button {
-    height: 5vh;
+    height: 6vh;
     width: 100vw;
     color: white;
     background-color: #4c6e97;
@@ -265,17 +267,148 @@ display: flex;
     display: flex;
     border-radius: 5vh;
     color: #4c6e97;
+    align-items: flex-end;
+    font-weight: bold;
 }
 
 
 
 
 footer{
+    display: flex;
     background-color: #131c27;
     height: 7vh;
     position: 0;
-    text-align: center;
     color: white;
-    width: 100vw;
+    width: 120vw;
+
 }
+
+.footer {
+    display: flex;
+    width: 90vw;
+    height: 7vh;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.footer p {
+    padding-left: 10vw;
+    font-size: 2vh;
+}
+
+
+.socials {
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+    
+}
+
+@media screen and (max-width: 472px) {
+    .flexnav {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 12vh;
+    }
+
+    .content {
+        justify-content: space-around;
+        width: 100vw;
+    }
+
+    .explore {
+        font-size: 0.1rem;
+    }
+
+    .beyondlimits h1 {
+        font-size: 4.5vh;
+    }
+
+    .beyondlimits p {
+        font-size: 3vh;
+    
+    }
+
+
+
+
+
+    .containercontact {
+        width: 80vw;
+    }
+
+    label {
+        font-size: smaller;
+    }
+
+    .section4 h2 {
+        font-size: 6.5vh;
+    }
+
+    .explore {
+        font-size: 3vh;
+        padding-right: 100vw;
+    }
+
+    .explore h2 {
+        width: 66vw;
+
+    }
+
+    .explore p {
+        width: 85vw;
+    }
+
+    .headersec3 {
+        font-size: 4vw;
+        height: 35vh;
+    }
+
+    .headersec3 p {
+        width: 65vw;
+        text-align: center;
+    }
+
+
+    .headersec3 h2 {
+        width: 60vw;
+        text-align: center;
+    }
+
+    .contendsec3 {
+        height: 220vh;
+        flex-direction: column;
+    }
+
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        flex-direction: column;
+        height: 11vh;
+    }
+
+    footer {
+        height: 11vh;
+        width: 100vw;
+    }
+
+    .socials {
+     display: flex;
+     gap: 10vh;
+     width: 85vw;
+    }
+
+   
+
+    
+
+   
+}
+
+
 
